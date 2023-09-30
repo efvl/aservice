@@ -19,7 +19,7 @@ public class PageController {
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
         }
-        return "AService test string " + curIP;
+        return "AService ip: " + curIP;
     }
 
     @GetMapping("/test2")
