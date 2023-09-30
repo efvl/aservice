@@ -22,4 +22,9 @@ public class PageController {
         return "AService test string " + curIP;
     }
 
+    @GetMapping("/test2")
+    public String testString2(){
+        return "AService string ";
+    }
+
 }
